@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "ignorePatterns": ["node_modules", "dist", "coverage"],
+  "plugins": ["prettier"],
+  "extends": ["plugin:@nrwl/nx/typescript", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
