@@ -33,5 +33,3 @@ jobs:
 
       - name: Check Prettier formatting
         run: pnpm format:check
-
-        
